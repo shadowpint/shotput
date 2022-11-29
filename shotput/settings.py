@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-^x$2&hj00^a(!g@(fq))(pr_#h78u2hooyxc1sk-=v_9psf^ju
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['stark-scrubland-55374.herokuapp.com','127.0.0.1']
 
 
 # Application definition
@@ -119,7 +119,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
-SITE_URL = 'shot.io/'
+SITE_URL = 'stark-scrubland-55374.herokuapp.com/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
